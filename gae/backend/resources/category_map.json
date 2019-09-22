@@ -1,8 +1,9 @@
 {
   "categorymaps": {
-      "Vehicles": ["bus", "car", "train", "road", "aeroplane", "truck", "boat", "traffic"],
-      "Nature": ["water", "waterfall", "sky", "cloud", "coast", "ocean", "landscape", "mountain"],
-      "City": ["city", "metropolis", "building", "tower", "urban area", "cityscape", "landmark", "town"],
-      "Animals": ["dog", "cat", "fish", "horse", "animal", "bird", "parrot", "budgie"]
+      "MobilesAndAccessories": ["Mobile Phones","Mobile Cases","Mobile Covers","Screen Protectors","Power Banks","Tablets","Data Cables","Chargers","Smart Watch","Earphones"],
+      "ComputerAndAccessories": ["Bluetooth Speakers","Printers","Laptops","External Hard Disks","Memory Cards","Pen Drives","Printer Cartridges"],
+      "Clothing": ["Tops","Tshirts","shirts","dresses","jeans","pants","suits","shrugs","kurta","kurti","salwar","shorts","saree","jackets","gown"],
+      "Books": ["book", "publication", "novel", "book cover", "poster", "illustration", "self-help book", "fiction", "notebook", "magazine", "comics", "comic book"],
+      "Bags":["handbags","clutches","wallets","backpacks","sling bag","duffle bag","totes","satchels"]
   }
 }

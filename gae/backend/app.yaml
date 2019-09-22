@@ -24,7 +24,8 @@ env_variables:
   ML_MODEL_NAME: category_predictor
   ML_MODEL_VERSION: v1
   # Categories returned from ML engine category prediction
-  ML_CATEGORY_KEYS: vehicles,nature,city,animals
+  # ML_CATEGORY_KEYS: vehicles,nature,city,animals
+  ML_CATEGORY_KEYS: mobilesAndAccessories,computerAndAccessories,clothing,books,bags
   # Maximum number of search results
   MAX_SEARCH_RESULTS: 50
   # Size of thumbnail images

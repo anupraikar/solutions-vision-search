@@ -65,11 +65,11 @@ def read_categories_as_json():
   with open(cat_file_path) as json_data:
     data = json.load(json_data)
     num_categories = len(data['categories'])
-    num_words_per_category = len(data['categories']['0'])
-    category_words = np.empty([num_categories, num_words_per_category],
+    category_words = np.empty([num_categories, 15],
                               dtype='S48')
 
     for i in range(0, num_categories):
+      num_words_per_category = len(data['categories'][i])
       for j in range(0, num_words_per_category):
         category_words[i][j] = data['categories'][str(i)][j]
 

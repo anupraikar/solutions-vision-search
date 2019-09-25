@@ -69,7 +69,10 @@ def read_categories_as_json():
                               dtype='S48')
 
     for i in range(0, num_categories):
-      num_words_per_category = len(data['categories'][i])
+     # print(data['categories'])
+      print('Categories')
+     # print(data['categories']['0'])
+      num_words_per_category = len(data['categories'][str(i)])
       for j in range(0, num_words_per_category):
         category_words[i][j] = data['categories'][str(i)][j]
 

@@ -19,7 +19,7 @@ threadsafe: true
 
 env_variables:
   # Whether to use ML Engine category predictor
-  USE_CATEGORY_PREDICTOR: false
+  USE_CATEGORY_PREDICTOR: true
   # ML Engine configuration
   ML_MODEL_NAME: category_predictor
   ML_MODEL_VERSION: v1

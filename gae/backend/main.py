@@ -88,6 +88,8 @@ def pubsub_push():
       if current_app.config['USE_CATEGORY_PREDICTOR'] == 'True':
         # Use ML Engine to calculate and return most similar category
         category_scores = category_from_similar_vectors(labels)
+        print('category_scores')
+        print(category_scores)
         max_similarity = max(category_scores)
         index = category_scores.index(max_similarity)
         most_similar_category = current_app.config['ML_CATEGORY_KEYS'][index]

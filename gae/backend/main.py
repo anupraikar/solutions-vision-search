@@ -89,6 +89,8 @@ def pubsub_push():
         # Use ML Engine to calculate and return most similar category
         category_scores = category_from_similar_vectors(labels)
         logging.debug('bucket_id: ' + bucket_id + ', object_id: ' + object_id + ', category_scores: ' + category_scores)
+        logging.debug(category_scores)
+
 
         max_similarity = max(category_scores)
         index = category_scores.index(max_similarity)

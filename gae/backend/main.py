@@ -87,8 +87,8 @@ def pubsub_push():
 
       if current_app.config['USE_CATEGORY_PREDICTOR'] == 'True':
         # Use ML Engine to calculate and return most similar category
-        category_scores = category_from_similar_vectors(labels)
         logging.debug('bucket_id: ' + bucket_id + ', object_id: ' + object_id)
+        category_scores = category_from_similar_vectors(labels)
         logging.debug(category_scores)
         logging.debug(labels)
 

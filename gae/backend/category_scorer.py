@@ -107,6 +107,8 @@ def category_from_similar_vectors(labels):
             'scores': score_list
         }]
     }
+    logging.info('request_dict')
+    logging.info(request_dict)
 
     # Build and execute the request to ML Engine
     ml_svc = get_ml_svc()

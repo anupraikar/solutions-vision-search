@@ -90,6 +90,8 @@ def pubsub_push():
         category_scores = category_from_similar_vectors(labels)
         logging.debug('bucket_id: ' + bucket_id + ', object_id: ' + object_id)
         logging.debug(category_scores)
+        logging.debug(labels)
+
 
 
         max_similarity = max(category_scores)
